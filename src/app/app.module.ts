@@ -15,6 +15,7 @@ import { HeadlineComponent } from './components/headline/headline.component';
 import { AboutComponent } from './components/about/about.component';
 import { ExperienceComponent } from './components/experience/experience.component';
 import { EducationComponent } from './components/education/education.component';
+import { NavbarComponent } from './components/navbar/navbar.component';
 
 @NgModule({
   declarations: [
@@ -30,7 +31,8 @@ import { EducationComponent } from './components/education/education.component';
     HeadlineComponent,
     AboutComponent,
     ExperienceComponent,
-    EducationComponent
+    EducationComponent,
+    NavbarComponent
   ],
   imports: [
     BrowserModule,
